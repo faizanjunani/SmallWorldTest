@@ -16,8 +16,8 @@ Import the project on IntelliJ Idea
 Build and Execute
 
 To check the reports, 
-1. Download the allure bin file
-2. Set System Variable PATH to your allure bin file provided 
-3. Confirm if the path is correctly set by using CMD and passing command allure --version
-4. After test execution, pass the following command in the cmd
-  allure serve {path to allure results from the project directory}  
+1. 2. Set System Variable PATH to your allure bin file provided 
+2. Confirm if the path is correctly set by using CMD and passing command allure --version
+3. If the version is displayed, it means its correctly configured
+3. After test execution, pass the following command in the cmd
+      allure serve {path to "allure-results" from the project directory}  
