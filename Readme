@@ -1,0 +1,23 @@
+README
+The repository contains the automation assessment
+Two login scenarios have been covered where two valid logins will be executed and one invalid login. 
+The third case is for checkout and placing the order
+Tools that have been used are:
+1. IntelliJ Idea
+2. Selenium
+3. Cucumber
+4. Allure Reporting 
+5. Git is used for versioning 
+6. GitHub is used to store the repository
+
+Execution Steps
+To execute the code, download the source code from the repo
+Import the project on IntelliJ Idea
+Build and Execute
+
+To check the reports, 
+1. Download the allure bin file
+2. Set System Variable PATH to your allure bin file provided 
+3. Confirm if the path is correctly set by using CMD and passing command allure --version
+4. After test execution, pass the following command in the cmd
+  allure serve {path to allure results from the project directory}  
